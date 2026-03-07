@@ -11,7 +11,7 @@ const friends = await getCollection("friends");
   title={site.labels.friendsTitle}
   description={site.labels.friendsDescription}
 >
-  <div class="mx-auto max-w-2xl p-8 md:p-16">
+  <div class="animate-in fade-in slide-in-from-bottom-4 mx-auto max-w-2xl p-8 duration-700 md:p-16">
     <section class="mb-24">
       <header class="mb-12">
         <h2 class="mb-4 text-3xl font-bold">{site.labels.friendsTitle}</h2>
@@ -20,7 +20,11 @@ const friends = await getCollection("friends");
         </p>
       </header>
       <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-        {
+        {friends.length === 0 ? (
+          <div class="col-span-full py-12 text-center">
+            <p class="text-sm text-muted-foreground">No friends yet.</p>
+          </div>
+        ) : (
           friends.map((friend) => (
             <a
               href={friend.data.link}
@@ -33,7 +37,7 @@ const friends = await getCollection("friends");
                 width={48}
                 height={48}
                 alt={friend.data.name}
-                loading={"eager"}
+                loading={"lazy"}
                 class="rounded-xl bg-muted transition-transform group-hover:rotate-6"
               />
               <div class="flex flex-col">
@@ -46,7 +50,7 @@ const friends = await getCollection("friends");
               </div>
             </a>
           ))
-        }
+        )}
       </div>
     </section>
   </div>
