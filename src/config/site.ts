@@ -28,7 +28,7 @@ const site = {
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, soy Walter",
+    greeting: "👋 Hola, soy Walter",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
       `Un estudiante de física interesado en todo
