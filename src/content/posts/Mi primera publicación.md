@@ -1,5 +1,5 @@
 ---
-title: Mi priemra publicación
+title: Mi primera publicación
 createdAt: 2026-03-14
 category: design
 tags: [Data science, tutorial]
