@@ -2,7 +2,7 @@ const site = {
   // --- Site Metadata ---
   meta: {
     title: "Walter Egoavil Onocc",
-    description: "Portafolio web sobre poyectos de física computacional",
+    description: "Portafolio web sobre poyectos de física computacional.",
     author: "Walter",
     logo: "/logo.svg",
     ogImage: "/og-image.png",
@@ -23,16 +23,17 @@ const site = {
 
   // --- Social Links ---
   social: [
-    { name: "GitHub", href: "https://github.com/your-username", icon: "mdi:github" },
-    { name: "Email", href: "mailto:hello@example.com", icon: "mdi:email" },
+    { name: "GitHub", href: "https://github.com/WalterEgoavil", icon: "mdi:github" },
+    { name: "Email", href: "mailto:egoavilonocc@gmail.com", icon: "mdi:email" },
   ],
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, I'm Breeze",
+    greeting: "👋 Hello, soy Walter",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
-      'A minimal personal website theme built with <span class="font-medium text-foreground underline decoration-primary/30">Astro</span> and <span class="font-medium text-foreground underline decoration-primary/30">Tailwind CSS</span>.',
+      `Un estudiante de física interesado en todo
+       lo que es programación y simulaciones físicas`,
     cards: [
       { icon: "mdi:explore", label: "Status", value: "Building something cool" },
       { icon: "mdi:location", label: "Location", value: "Earth" },
