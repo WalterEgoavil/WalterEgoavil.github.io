@@ -10,8 +10,8 @@ Dado que solo he recibido dos cursos de programación me toca planificar un plan
 
 ### Guía de estudio
 
--Item Libros
--Item Páginas web
+- Item Libros
+- Item Páginas web
 
 1. First
 2. Second
