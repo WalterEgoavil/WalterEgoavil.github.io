@@ -17,7 +17,6 @@ const site = {
     { name: "Home", subtitle: "Index", href: "/" },
     { name: "Writing", subtitle: "Blog", href: "/posts" },
     { name: "Projects", subtitle: "Works", href: "/projects" },
-    { name: "Friends", subtitle: "Links", href: "/friends" },
     { name: "About", subtitle: "Me", href: "/about" },
   ],
 
@@ -33,10 +32,11 @@ const site = {
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
       `Un estudiante de física interesado en todo
-       lo que es programación y simulaciones físicas`,
+       lo que es programación y en simulaciones físicas.
+       Realizo proyetos en python con la respectiva documentación en latex.`,
     cards: [
-      { icon: "mdi:explore", label: "Status", value: "Building something cool" },
-      { icon: "mdi:location", label: "Location", value: "Earth" },
+      { icon: "mdi:explore", label: "Status", value: "Perfeccionando mis conocimientos" },
+      { icon: "mdi:location", label: "Location", value: "Lima, Perú" },
     ],
   },
 
@@ -100,9 +100,9 @@ const site = {
   // Customize these values to change the text displayed on pages
   labels: {
     postsTitle: "Writing",
-    postsDescription: "Notes, thoughts, and technical musings",
+    postsDescription: "Notas sobre cursos académicos",
     projectsTitle: "Projects",
-    projectsDescription: "Small tools built for fun or to solve real problems.",
+    projectsDescription: "Aplicaciones físicas.",
     friendsTitle: "Friends",
     friendsDescription: "Like-minded folks around the web.",
     toolsTitle: "Stack",
