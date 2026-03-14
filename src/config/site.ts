@@ -1,9 +1,9 @@
 const site = {
   // --- Site Metadata ---
   meta: {
-    title: "Breeze",
-    description: "A minimal Astro theme for personal websites",
-    author: "Your Name",
+    title: "Walter Egoavil Onocc",
+    description: "Portafolio web sobre poyectos de física computacional",
+    author: "Walter",
     logo: "/logo.svg",
     ogImage: "/og-image.png",
     // HTML lang attribute, affects page language and date formatting
